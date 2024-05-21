@@ -15,7 +15,7 @@ export function SelectTopics() {
     <div className="flex">
       <div className="flex">
         <Select>
-          <SelectTrigger className="w-[100px] h-[30px] border border-[#8eaedf] bg-[#d7e3f4] bg-opacity-70 outline-none text-darkblueui font-medium">
+          <SelectTrigger className="w-[100px] h-[30px] border border-[#8eaedf] bg-[#d7e3f4] bg-opacity-70 outline-none text-darkblueui">
             <SelectValue placeholder="Topics" className="" />
           </SelectTrigger>
           <SelectContent>
@@ -30,7 +30,7 @@ export function SelectTopics() {
       </div>
       <div className="flex ml-2">
         <Select>
-          <SelectTrigger className="w-[100px] h-[30px] border border-[#8eaedf] bg-[#d7e3f4] bg-opacity-70 text-darkblueui font-medium outline-none">
+          <SelectTrigger className="w-[100px] h-[30px] border border-[#8eaedf] bg-[#d7e3f4] bg-opacity-70 text-darkblueui outline-none">
             <SelectValue placeholder="Rating" />
           </SelectTrigger>
           <SelectContent>
@@ -45,7 +45,7 @@ export function SelectTopics() {
       </div>
       <div className="flex ml-2">
         <Select>
-          <SelectTrigger className="w-[120px] h-[30px] border border-[#8eaedf] bg-[#d7e3f4] bg-opacity-70 text-darkblueui font-medium">
+          <SelectTrigger className="w-[120px] h-[30px] border border-[#8eaedf] bg-[#d7e3f4] bg-opacity-70 text-darkblueui">
             <SelectValue placeholder="Price Range" />
           </SelectTrigger>
           <SelectContent>

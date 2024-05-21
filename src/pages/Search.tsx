@@ -3,7 +3,7 @@ import { QuickLinks, SelectTopics } from "@/components";
 
 const Search = () => {
   return (
-    <section className="w-full h-screen flex flex-col justify-center items-center border border-red-500 ">
+    <section className="w-full h-screen flex flex-col justify-start items-center mt-48">
       <div className="max-w-[25.5rem] flex flex-col justify-center items-center">
         <h1 className="text-darkblueui font-bold text-3xl">
           What do you want to learn?
@@ -19,7 +19,7 @@ const Search = () => {
             <input
               className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
               type="text"
-              placeholder="Jane Doe"
+              placeholder=""
               aria-label="Full name"
             />
             <button

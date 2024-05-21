@@ -25,17 +25,11 @@ const Navbar = () => {
         </div>
         {/* Second Icon */}
         <div className="flex flex-col w-16 h-16 bg-white hover:bg-blue-500 rounded-full hover:text-white outerdivclass ml-10">
-          <div className="ml-2 -mt-0.5">
-            <div className="ml-2 text-3xl mt-1 hover:fill-white">
-              <Image
-                src="/bookicon.png"
-                width={33}
-                height={33}
-                alt="icon"
-                className="search-icon"
-              />
+          <div className="ml-2 mt-0.5">
+            <div className="ml-3 text-2xl mt-1 hover:fill-white">
+              <SlBookOpen className="search-icon" />
             </div>
-            <div className="text-sm ml-1">
+            <div className="text-sm ml-1 mt-1">
               <Link href="/">Library</Link>
             </div>
           </div>
