@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
       </div>
       <Link href="/">
-        <div className="h-[1.8rem] w-[4.8rem] rounded-full bg-blueui flex justify-center items-center mt-4">
+        <div className="h-[1.8rem] w-[4.8rem] rounded-full bg-blueui flex justify-center items-center mt-4 hover:bg-dark">
           <div className="flex">
             <div className="text-sm mt-0.5">
               <FaRegCircleQuestion className="question-icon" />
