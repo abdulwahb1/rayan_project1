@@ -24,3 +24,26 @@ export const QUICK_LINKS = [
     id: "6",
   },
 ];
+
+export const PROFILE_SIDEBAR = [
+  {
+    title: "Dashboard",
+    id: "1",
+  },
+  {
+    title: "Session History",
+    id: "2",
+  },
+  {
+    title: "Payment History",
+    id: "3",
+  },
+  {
+    title: "Settings",
+    id: "4",
+  },
+  {
+    title: "Sign Out",
+    id: "5",
+  },
+];
