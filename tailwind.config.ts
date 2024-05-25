@@ -35,6 +35,7 @@ const config = {
       colors: {
         blueui: "#6893d4",
         darkblueui: "#172b6d",
+        whiteblue: "#bac0d3",
       },
     },
   },

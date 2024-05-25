@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BiConversation } from "react-icons/bi";
@@ -11,7 +10,7 @@ type SessionPlanCardProps = {
 
 const SessionPlanCard = ({ title, date, image }: SessionPlanCardProps) => {
   return (
-    <div className="shadowprofile mt-5 bg-white w-[600px] min-h-20 rounded-md flex justify-center items-center">
+    <div className="shadowprofile mt-5 bg-white w-[685px] min-h-20 rounded-md flex justify-center items-center">
       <div className="flex justify-center items-center ml-4">
         <div className="w-12 h-12 bg-[#D7E3F4] rounded-full justify-center flex items-center overflow-hidden">
           <Image
@@ -23,9 +22,11 @@ const SessionPlanCard = ({ title, date, image }: SessionPlanCardProps) => {
           />
         </div>
       </div>
-      <div className="flex flex-col ml-6 items-start justify-center font-bold text-md w-[45rem] max-w-[45rem]">
-        <Link href="/">
-          <span className="text-darkblueui text-md underline">{title}</span>
+      <div className="flex flex-col ml-6 items-start justify-center font-bold text-md w-full max-w-[30rem] max-h-20">
+        <Link href="/" className="overflow-hidden max-h-[22px]">
+          <span className="text-darkblueui text-md underline overflow-hidden">
+            {title}
+          </span>
         </Link>
         <span className="font-normal text-darkblueui text-sm">{date}</span>
       </div>
