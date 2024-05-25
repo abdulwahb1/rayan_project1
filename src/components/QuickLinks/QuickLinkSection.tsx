@@ -1,5 +1,5 @@
 import React from "react";
-import QuickLinksCard from "../ui/QuickLinksCard";
+import QuickLinksCard from "./QuickLinksCard";
 import { QUICK_LINKS } from "../../constants/constant";
 
 const QuickLinks = () => {
