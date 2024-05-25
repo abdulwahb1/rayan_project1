@@ -47,3 +47,24 @@ export const PROFILE_SIDEBAR = [
     id: "5",
   },
 ];
+
+export const SESSION_DATA = [
+  {
+    title: "Dolor Sit Amet",
+    date: "Thursday, Oct 12th, 1:00PM - 2:00PM",
+    image: "/teacher1.png",
+    id: "1",
+  },
+  {
+    title: "Consectetur Amis",
+    date: "Thursday, Oct 12th, 1:00PM - 2:00PM",
+    image: "/teacher1.png",
+    id: "2",
+  },
+  {
+    title: "Lorem Ipsum",
+    date: "Thursday, Oct 12th, 1:00PM - 2:00PM",
+    image: "/teacher1.png",
+    id: "3",
+  },
+];
