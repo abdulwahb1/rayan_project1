@@ -11,6 +11,9 @@
 .search-icon {
   color: #172b6d;
 }
+.search-icon-active {
+  color: white;
+}
 
 .outerdivclass:hover .search-icon {
   color: white;
