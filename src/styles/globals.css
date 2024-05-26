@@ -29,3 +29,19 @@
 .shadowprofile {
   box-shadow: 0px 4px 54px 0px rgba(0, 0, 0, 0.15);
 }
+
+.step-item {
+  @apply relative flex flex-col justify-center items-center w-36;
+}
+.step-item:not(:first-child):before {
+  @apply content-[''] bg-[#181849] absolute w-full h-[1px] right-2/4 top-1.5 -translate-y-2/4;
+}
+.step {
+  @apply w-3 h-3 flex items-center justify-center z-10 relative bg-white border-2 border-[#181849] rounded-full font-semibold text-white;
+}
+.active .step {
+  @apply bg-[#181849];
+}
+.complete .step {
+  @apply bg-[#181849];
+}
