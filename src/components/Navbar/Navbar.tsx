@@ -19,7 +19,7 @@ const Navbar = () => {
               <IoIosSearch className="search-icon" />
             </div>
             <div className="text-sm ml-1">
-              <Link href="/">Search</Link>
+              <Link href="/Search">Search</Link>
             </div>
           </div>
         </div>
