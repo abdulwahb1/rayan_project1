@@ -1,8 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useRouter } from "next/router";
 
 const FinalStepDialog = () => {
+  const router = useRouter();
+
+  const getImageSrc = () => {
+    if (router.pathname === "/create/student/profilesetup") {
+      return "/studentdialog.png";
+    } else if (router.pathname === "/create/teacher/profilesetup") {
+      return "/teacherdialog.png";
+    } else {
+      return "";
+    }
+  };
+
   return (
     <div className="fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
       <div className="absolute w-full h-full bg-gray-900 opacity-50"></div>
@@ -11,10 +24,10 @@ const FinalStepDialog = () => {
         <div className="py-4 text-left px-6">
           <div className="flex flex-col justify-center items-center pb-3">
             <Image
-              src="/teacherdialog.png"
+              src={getImageSrc()}
               width={122}
               height={168}
-              alt="teacherpng"
+              alt="dialogpng"
             />
             <p className="text-2xl font-bold text-darkblueui mt-10">
               Welcome, Dolor Sit Amet!
