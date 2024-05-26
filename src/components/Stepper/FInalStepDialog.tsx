@@ -45,10 +45,7 @@ const FinalStepDialog = () => {
             >
               Back to profile setup
             </Link>
-            <Link
-              href="/Profile"
-              className="bg-darkblueui px-3 h-9 rounded-full flex text-white text-sm items-center mt-2"
-            >
+            <button className="bg-darkblueui px-3 h-9 rounded-full flex text-white text-sm items-center mt-2">
               Go to dashboard
               <svg
                 width="21"
@@ -76,7 +73,7 @@ const FinalStepDialog = () => {
                   />
                 </g>
               </svg>
-            </Link>
+            </button>
           </div>
         </div>
       </div>
