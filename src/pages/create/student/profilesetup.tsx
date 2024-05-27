@@ -1,7 +1,7 @@
 import Stepper from "@/components/Stepper/Stepper";
 import React from "react";
 
-const profilesetup = () => {
+const ProfileSetup = () => {
   return (
     <section className="flex flex-col w-full min-h-screen    justify-center items-center">
       <div className="flex flex-col w-full h-full justify-center items-center">
@@ -16,4 +16,4 @@ const profilesetup = () => {
   );
 };
 
-export default profilesetup;
+export default ProfileSetup;
