@@ -37,12 +37,12 @@ const Navbar = () => {
     <div className="flex w-full min-h-18 mt-2 justify-between items-center shadow">
       <div></div>
       <div className="flex space-x-10">
-        {navItem("/Search", IoIosSearch, "Search", "search-icon")}
-        {navItem("/Library", SlBookOpen, "Library", "search-icon")}
-        {navItem("/Profile", FaUser, "Profile", "search-icon")}
-        {navItem("/Chat", BiConversation, "Chat", "search-icon")}
+        {navItem("/search", IoIosSearch, "Search", "search-icon")}
+        {navItem("/library", SlBookOpen, "Library", "search-icon")}
+        {navItem("/profile", FaUser, "Profile", "search-icon")}
+        {navItem("/chat", BiConversation, "Chat", "search-icon")}
       </div>
-      <button className="h-[1.8rem] w-[4.8rem] rounded-full bg-blueui flex justify-center items-center mt-4 hover:bg-dark">
+      <button className="px-3.5 py-1.5 rounded-full bg-blueui flex justify-center items-center mt-4 hover:bg-dark mr-6">
         <FaRegCircleQuestion className="text-sm mt-0.5 question-icon" />
         <span className="text-sm text-white ml-1 font-light">Help</span>
       </button>
