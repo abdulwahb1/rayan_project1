@@ -10,7 +10,7 @@ const Sidebar = () => {
         <SidebarCard title="Dashboard" href="/Profile" />
         <SidebarCard title="Session History" href="/" />
         <SidebarCard title="Payment History" href="/" />
-        <SidebarCard title="Settings" href="/Settings" />
+        <SidebarCard title="Settings" href="/settings" />
         <SidebarCard title="Sign Out" href="/" />
       </div>
     </section>
