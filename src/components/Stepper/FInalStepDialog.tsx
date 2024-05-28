@@ -7,9 +7,9 @@ const FinalStepDialog = () => {
   const router = useRouter();
 
   const getImageSrc = () => {
-    if (router.pathname === "/create/student/profilesetup") {
+    if (router.pathname === "/create/student/profileSetup") {
       return "/studentdialog.png";
-    } else if (router.pathname === "/create/teacher/profilesetup") {
+    } else if (router.pathname === "/create/teacher/profileSetup") {
       return "/teacherdialog.png";
     } else {
       return "";
