@@ -15,17 +15,16 @@ const Search = () => {
             want to learn.
           </p>
         </div>
-        <div className="border-2 border-[#d7e3f4] rounded-full w-96 h-12 mt-8 mx-auto">
+        <div className="border-2 border-[#d7e3f4] rounded-full w-96 mt-8 mx-auto">
           <form className="w-full max-w-sm">
-            <div className="flex items-center py-2">
+            <div className="flex justify-center items-center py-1">
               <input
-                className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-3 leading-tight focus:outline-none"
                 type="text"
                 placeholder=""
-                aria-label="Full name"
               />
               <button
-                className="h-[2rem] w-[5rem] flex-shrink-0 bg-darkblueui text-sm text-white py-1 px-2 rounded-full mr-1 hover:bg-blueui"
+                className="flex-shrink-0 bg-darkblueui text-sm text-white py-2 px-4 rounded-full mr-1 hover:bg-blueui"
                 type="button"
               >
                 Search

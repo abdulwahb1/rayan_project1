@@ -6,6 +6,7 @@ import ProfileQuickLinkSection from "./ProfileQuickLink/ProfileQuickLinkSection"
 import MeetingDialog from "./Meeting/MeetingDialog";
 import Video from "./VideoChat/Video";
 import Rating from "./VideoChat/Rating";
+import Navbar2 from "./Navbar/Navbar2";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   MeetingDialog,
   Video,
   Rating,
+  Navbar2,
 };
