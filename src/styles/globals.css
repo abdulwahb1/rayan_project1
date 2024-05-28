@@ -48,3 +48,10 @@
 .complete .step {
   @apply bg-[#181849];
 }
+
+.landingpagebg {
+  background: var(
+    --Medium-Blue-Gradient,
+    linear-gradient(249deg, #577eb8 4.71%, #3060a8 113.23%)
+  );
+}

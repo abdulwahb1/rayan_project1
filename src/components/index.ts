@@ -4,6 +4,8 @@ import QuickLinks from "./QuickLinks/QuickLinkSection";
 import Sidebar from "./Sidebar/SidebarSection";
 import ProfileQuickLinkSection from "./ProfileQuickLink/ProfileQuickLinkSection";
 import MeetingDialog from "./Meeting/MeetingDialog";
+import Video from "./VideoChat/Video";
+import Rating from "./VideoChat/Rating";
 
 export {
   Navbar,
@@ -12,4 +14,6 @@ export {
   Sidebar,
   ProfileQuickLinkSection,
   MeetingDialog,
+  Video,
+  Rating,
 };
