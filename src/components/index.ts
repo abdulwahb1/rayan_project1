@@ -7,6 +7,7 @@ import MeetingDialog from "./Meeting/MeetingDialog";
 import Video from "./VideoChat/Video";
 import Rating from "./VideoChat/Rating";
 import Navbar2 from "./Navbar/Navbar2";
+import SearchPage from "./Search/SearchPage";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Video,
   Rating,
   Navbar2,
+  SearchPage,
 };
