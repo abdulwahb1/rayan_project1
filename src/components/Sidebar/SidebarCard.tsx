@@ -14,7 +14,9 @@ const SidebarCard = ({ title, href }: SidebarProps) => {
   const styles =
     router.pathname === href ||
     (router.pathname === "/" &&
-      (href === "/profile" || href === "/chat" || href === "/settings"))
+      (href === "/profile/dashboard" ||
+        href === "/profile/settings" ||
+        href === "/chat"))
       ? "bg-white text-[#181849] font-bold"
       : "text-white";
 

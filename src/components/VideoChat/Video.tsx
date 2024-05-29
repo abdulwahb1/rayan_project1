@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FaRegCircleQuestion } from "react-icons/fa6";
 import { useState } from "react";
 import { ArrowIconWhite } from "@/Icons";
+import Link from "next/link";
 
 type VideoProps = {
   onFinish: () => void;
@@ -13,7 +14,10 @@ const Video: React.FC<VideoProps> = ({ onFinish }) => {
     <>
       <div className="w-full py-4 px-10 items-center flex min-h-20 shadowprofile bg-white relative z-20">
         <div className="flex w-full justify-between items-center">
-          <button className="bg-blueui px-5 h-9 rounded-full flex text-white text-sm items-center">
+          <Link
+            href="/chat"
+            className="bg-blueui px-5 h-9 rounded-full flex text-white text-sm items-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"
@@ -28,7 +32,7 @@ const Video: React.FC<VideoProps> = ({ onFinish }) => {
               />
             </svg>
             Back
-          </button>
+          </Link>
           <div>12:!4</div>
           <button className="px-4 py-2 rounded-full bg-[#6893D4] flex justify-center items-center mt-4 hover:bg-dark">
             <FaRegCircleQuestion className="text-sm question-icon" />

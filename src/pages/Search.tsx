@@ -50,7 +50,7 @@ const Search = () => {
             <div className="flex mt-4 justify-center">
               <SelectTopics />
             </div>
-            <div className="mt-4 flex flex-col min-h-[100px] mx-auto">
+            <div className="mt-4 flex flex-col min-h-[100px]">
               <QuickLinks />
             </div>
           </>

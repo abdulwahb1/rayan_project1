@@ -41,15 +41,18 @@ const FinalStepDialog = () => {
 
           <div className="flex justify-end mt-8">
             <Link
-              href="/"
+              href="/getStarted"
               className="text-darkblueui text-sm underline underline-offset-2 mt-4 mr-6"
             >
               Back to profile setup
             </Link>
-            <button className="bg-darkblueui px-3 h-9 rounded-full flex items-center mt-2">
+            <Link
+              href="/profile/dashboard"
+              className="bg-darkblueui px-3 h-9 rounded-full flex items-center mt-2"
+            >
               <span className="text-white text-sm mr-1.5">Go to dashboard</span>
               <ArrowIconWhite />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
