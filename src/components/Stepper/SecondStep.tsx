@@ -4,7 +4,7 @@ import QuickLinksCard from "../QuickLinks/QuickLinksCard";
 const SecondStep = () => {
   return (
     <>
-      <div className="flex flex-col min-h-96 h-full justify-center items-center">
+      <div className="flex flex-col min-h-96 h-full items-center">
         <h2 className="text-darkblueui font-bold text-2xl">Favourite topics</h2>
         <span className="text-darkblueui text-base text-center">
           Please fill in topics you find interesting. These will be used to give{" "}

@@ -25,7 +25,7 @@ const Chat = () => {
         <div className="flex flex-col min-w-[250px] max-w-[250px] bg-[#181849] min-h-screen">
           <h2 className="text-white text-2xl font-bold mt-4 ml-6">Chat</h2>
           <div className="flex flex-col w-full mt-5">
-            <SidebarCard title="Dolor Sit Amet" href="/Profile" />
+            <SidebarCard title="Dolor Sit Amet" href="/chat" />
             <SidebarCard title="Conseteur Et Amis" href="/" />
             <SidebarCard title="Assumenda Qui Nemo" href="/" />
             <SidebarCard title="Debitis Et Suscipit" href="/Settings" />

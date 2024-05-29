@@ -3,7 +3,7 @@ import React from "react";
 const ThirdStep = () => {
   return (
     <>
-      <div className="flex flex-col min-h-96 h-full justify-center items-center">
+      <div className="flex flex-col min-h-96 h-full items-center">
         <h2 className="text-darkblueui font-bold text-2xl">
           Tell us something about yourself
         </h2>

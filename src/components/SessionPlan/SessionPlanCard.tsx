@@ -1,3 +1,4 @@
+import { CrossSvgBlue } from "@/Icons";
 import Image from "next/image";
 import Link from "next/link";
 import { BiConversation } from "react-icons/bi";
@@ -30,11 +31,11 @@ const SessionPlanCard = ({ title, date, image }: SessionPlanCardProps) => {
         </Link>
         <span className="font-normal text-darkblueui text-sm">{date}</span>
       </div>
-      <div className="flex ml-3 w-full justify-evenly items-center">
+      <div className="flex ml-3 w-3/4 justify-evenly items-center">
         {/* 1st Icon Link */}
         <div className="flex flex-col justify-center items-center">
           <Link href="/" className="flex flex-col justify-center items-center">
-            <BiConversation className="text-2xl text-blueui" />
+            <Image src="/chat.png" width={29} height={29} alt="chat icon" />
             <span className="text-blueui text-center text-xs flex flex-col items-center whitespace-nowrap">
               Open
               <br />
@@ -45,7 +46,12 @@ const SessionPlanCard = ({ title, date, image }: SessionPlanCardProps) => {
         {/* 2nd Icon Link */}
         <div className="flex flex-col justify-center items-center">
           <Link href="/" className="flex flex-col justify-center items-center">
-            <BiConversation className="text-2xl text-blueui" />
+            <Image
+              src="/calendaricon.png"
+              width={29}
+              height={29}
+              alt="chat icon"
+            />
             <span className="text-blueui text-center text-xs flex flex-col items-center whitespace-nowrap">
               Reschedule
               <br />
@@ -54,10 +60,10 @@ const SessionPlanCard = ({ title, date, image }: SessionPlanCardProps) => {
           </Link>
         </div>
         {/* 3rd Icon Link */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center mt-1">
           <Link href="/" className="flex flex-col justify-center items-center">
-            <BiConversation className="text-2xl text-blueui" />
-            <span className="text-blueui text-center text-xs flex flex-col items-center whitespace-nowrap">
+            <CrossSvgBlue />
+            <span className="text-blueui text-center text-xs flex flex-col items-center whitespace-nowrap mt-2">
               Cancel
               <br />
               Session
