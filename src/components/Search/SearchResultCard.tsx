@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import QuickLinksCard from "../QuickLinks/QuickLinksCard";
-import { LittleStar } from "@/Icons";
+import { ArrowIconWhite, LittleStar } from "@/Icons";
+import SendMessage from "./SendMessage";
 
 type SearchResultCardProps = {
   title: string;
@@ -15,12 +16,25 @@ const SearchResultCard = ({
   reviews,
   description,
 }: SearchResultCardProps) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpen = () => {
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="shadowprofile mt-8 bg-white w-[670px] h-44 rounded-lg flex justify-center items-center px-5">
       <div className="flex justify-center items-center">
         <div className="w-28 h-28 bg-[#D7E3F4] rounded-full justify-center flex items-center"></div>
         <div className="flex flex-col ml-5 w-3/4">
-          <span className="text-darkblueui text-xl font-bold">{title}</span>
+          <button className="justify-start flex" onClick={handleOpen}>
+            <span className="text-darkblueui text-xl font-bold hover:underline">
+              {title}
+            </span>
+          </button>
           <div className="flex">
             <LittleStar />
             <p className="ml-1 text-xs text-darkblueui">
@@ -42,6 +56,14 @@ const SearchResultCard = ({
           </div>
         </div>
       </div>
+      {isOpen && (
+        <SendMessage
+          title={title}
+          rating={rating}
+          reviews={reviews}
+          handleClose={handleClose}
+        />
+      )}
     </div>
   );
 };
